@@ -12,11 +12,10 @@ apm install ide-r
 
 ## Requirements
 
-[`ide-r`](https://atom.io/packages/ide-r) requires [`languageserver`](https://github.com/REditorSupport/languageserver) and the development version of [`callr`](https://github.com/r-lib/callr)
-
-Install development versions of `callr` and `languageserver`
+`ide-r` requires the [R Language Server](https://github.com/REditorSupport/languageserver).
+Install the development version with
 ```
-devtools::install_github(c("r-lib/callr", "REditorSupport/languageserver"))
+remotes::install_github("REditorSupport/languageserver")
 ```
 
 
