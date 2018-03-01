@@ -13,9 +13,9 @@ apm install ide-r
 ## Requirements
 
 `ide-r` requires the [R Language Server](https://github.com/REditorSupport/languageserver).
-Install the development version with
+It can be easily installed via CRAN
 ```
-remotes::install_github("REditorSupport/languageserver")
+install.packages("languageserver")
 ```
 
 
