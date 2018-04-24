@@ -18,6 +18,8 @@ It can be easily installed via CRAN
 install.packages("languageserver")
 ```
 
+For R Markdown support, you would need to install `languageserver` v0.2.1 or above and our companion package [atom-language-r](https://atom.io/packages/atom-language-r). (**Caution** the name is `atom-language-r`, but `language-r`)
+
 
 ## License
 MIT License.  See [the license](LICENSE.md) for more details.
