@@ -10,6 +10,8 @@ apm install ide-r
 ```
 You should also install the [atom-ide-ui](https://ide.atom.io/) package to expose the functionality within Atom.
 
+We also recommend you to install our companion package [atom-language-r](https://atom.io/packages/atom-language-r) for R and R Markdown grammars. (**Caution** the package name is `atom-language-r`, not the legacy `language-r`)
+
 ## Requirements
 
 `ide-r` requires the [R Language Server](https://github.com/REditorSupport/languageserver).
@@ -18,7 +20,7 @@ It can be easily installed via CRAN
 install.packages("languageserver")
 ```
 
-For R Markdown support, you would need to install `languageserver` v0.2.1 or above and our companion package [atom-language-r](https://atom.io/packages/atom-language-r). (**Caution** the name is `atom-language-r`, but `language-r`)
+For R Markdown support, you would need to install `languageserver` v0.2.1+ and our companion package [atom-language-r](https://atom.io/packages/atom-language-r).
 
 
 ## License
